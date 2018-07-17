@@ -1,0 +1,16 @@
+{
+  "name": "beapi/beapi-plugins-require-wp-at-least",
+  "description": "Stop installing plugins that are not compatible with your WP version",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Be API",
+      "email": "technique@beapi.fr"
+    }
+  ],
+  "type" : "wordpress-plugin",
+  "require" : {
+    "composer/installers" : "~1.0"
+  }
+}
